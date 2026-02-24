@@ -1,9 +1,9 @@
 export const UserProfile = () => {
   return (
-    <div className="flex w-[36rem] gap-x-4 rounded-lg bg-white p-12">
+    <div className="flex w-xl gap-x-4 rounded-lg bg-white p-12">
       <img
         src="https://placewaifu.com/image/200"
-        className="w-32 self-start rounded-full border-[11px] border-[#c9c8c8]"
+        className="w-32 self-start rounded-full border-11 border-[#c9c8c8]"
       />
       <div className="space-y-7 text-[#1C2B62]">
         <div>
@@ -65,7 +65,7 @@ export const UserProfile = () => {
           </p>
         </div>
 
-        <p className="font-lg">
+        <p className="text-lg">
           NGÔ MINH THIÊN has been making video games for a living for more than
           14 years as a Designer, Producer, Creative Director, and Executive
           Producer, creating games for console, mobile, PC and Facebook.
